@@ -34,28 +34,28 @@ export const Desktop = () => {
           <div className="flexcontainer">
             <p className="text">
               <span className="span">
-                <img src="/assets/discord.png" width="25" height="25" className="icon"></img> maxi2007
+                <a href="https://discord.com/" className="span" target="_blank"><img src="/assets/discord.png" width="25" height="25" className="icon"></img> maxi2007</a>
                 <br />
               </span>
             </p>
 
             <p className="text">
               <span className="span">
-                <img src="/assets/instagram.png" width="25" height="25" className="icon"></img>maximiliankomposto
+                <a href="https://www.instagram.com/maximiliankomposto/" className="span" target="_blank"><img src="/assets/instagram.png" width="25" height="25" className="icon"></img>maximiliankomposto</a>
                 <br />
               </span>
             </p>
 
             <p className="text">
               <span className="span">
-                <img src="/assets/github.png" width="25" height="25" className="icon"></img>Jonposo
+                <a href="https://github.com/Jonposo" className="span" target="_blank"><img src="/assets/github.png" width="25" height="25" className="icon"></img>Jonposo</a>
                 <br />
               </span>
             </p>
 
             <p className="text">
               <span className="span">
-                <img src="/assets/facebook.png" width="25" height="25" className="icon"></img>Max Fabriani Pieksma
+                <a href="https://www.linkedin.com/in/maximilian-fabriani-pieksma-40498932a/" className="span" target="_blank"><img src="/assets/linkedin.png" width="25" height="25" className="icon"></img>Maximilian Fabriani Pieksma</a>
                 </span>
             </p>
           </div>
