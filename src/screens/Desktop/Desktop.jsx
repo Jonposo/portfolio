@@ -93,7 +93,7 @@ export const Desktop = () => {
         </div>
 
         <div className="overlap-2">
-          <div className="overlap-3">
+          <div className="project-card1">
             <img
               className="screenshot-from"
               alt="Screenshot from"
@@ -114,7 +114,7 @@ export const Desktop = () => {
             </p>
           </div>
 
-          <div className="overlap-4">
+          <div className="project-card2">
             <img
               className="screenshot-from"
               alt="Screenshot from"
@@ -138,7 +138,7 @@ export const Desktop = () => {
             </p>
           </div>
 
-          <div className="overlap-5">
+          <div className="project-card3">
             <img
               className="img"
               alt="Screenshot from"

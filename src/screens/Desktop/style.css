@@ -343,3 +343,46 @@
   top: 16px;
 }
 
+.project-card1 {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #b6b6b6;
+  height: 149px;
+  left: 39px;
+  position: absolute;
+  top: 43px;
+  width: 586px;
+}
+.project-card1:hover {
+  transform: scale(1.08);
+  z-index: 1;
+}
+
+.project-card2 {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #b6b6b6;
+  height: 149px;
+  left: 39px;
+  position: absolute;
+  top: 239px;
+  width: 586px;
+}
+.project-card2:hover {
+  transform: scale(1.08);
+  z-index: 1;
+}
+
+
+.project-card3 {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #b6b6b6;
+  height: 149px;
+  left: 39px;
+  position: absolute;
+  top: 435px;
+  width: 586px;
+}
+.project-card3:hover {
+  transform: scale(1.08);
+  z-index: 1;
+}
+
