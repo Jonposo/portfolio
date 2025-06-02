@@ -3,9 +3,9 @@ import { defineConfig } from "vite";
 
 import { screenGraphPlugin } from "@animaapp/vite-plugin-screen-graph";
 
-// https://vite.dev/config/
-export default defineConfig(({ mode }) => ({
-  plugins: [react(), mode === "development" && screenGraphPlugin()],
-  publicDir: "./static",
-  base: "./",
-}));
+export default defineConfig({
+  base: '/portfolio/',
+  plugins: [react()],
+});
+
+
