@@ -88,7 +88,7 @@ export const Desktop = () => {
 
         <div className="div-wrapper">
           <div className="text-wrapper-3">
-          <a href="https://github.com/Jonposo/portfolio/blob/master/docs/assets/CV%20Maximilian%20Fabriani%20Pieksma.pdf">View full résumé:</a>
+          <a href="./docs/assets/CVMaximilianFabrianiPieksma.pdf">View full résumé:</a>
           </div>
         </div>
 
