@@ -114,11 +114,11 @@ export const Desktop = () => {
             </p>
           </div>
 
-          <div className="project-card2">
+          <div className="project-card2" onclick="window.location.href = '/src/screens/ROBERT/index.jsx';">
             <img
               className="screenshot-from"
               alt="Screenshot from"
-              src="https://c.animaapp.com/mHgkXrS7/img/screenshot-from-2025-05-20-12-42-48-1@2x.png"
+              src="/assets/robert.png"
             />
 
             <p className="r-o-b-e-r-t-robot">

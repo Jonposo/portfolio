@@ -4,9 +4,9 @@ import sharedImage1 from "./shared-image-1.png";
 import sharedImage21 from "./shared-image-2-1.png";
 import "./style.css";
 
-export const VibbOnline = () => {
+export const Robert = () => {
   return (
-    <div className="vibb-online">
+    <div className="ROBERT">
       <div className="div">
         <img
           className="screenshot-from"

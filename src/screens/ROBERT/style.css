@@ -1,4 +1,4 @@
-.vibb-online {
+.ROBERT {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -6,14 +6,14 @@
   width: 100%;
 }
 
-.vibb-online .div {
+.ROBERT .div {
   background-color: #ffffff;
   height: 1024px;
   position: relative;
   width: 1440px;
 }
 
-.vibb-online .screenshot-from {
+.ROBERT .screenshot-from {
   height: 435px;
   left: 48px;
   position: absolute;
@@ -21,7 +21,7 @@
   width: 435px;
 }
 
-.vibb-online .overlap-group {
+.ROBERT .overlap-group {
   background-color: #d9d9d9;
   height: 435px;
   left: 538px;
@@ -30,7 +30,7 @@
   width: 853px;
 }
 
-.vibb-online .text-wrapper {
+.ROBERT .text-wrapper {
   color: #000000;
   font-family: "Inria Sans-Bold", Helvetica;
   font-size: 48px;
@@ -42,7 +42,7 @@
   top: 23px;
 }
 
-.vibb-online .ROBERT-is-best {
+.ROBERT .ROBERT-is-best {
   color: #000000;
   font-family: "Inria Sans-Regular", Helvetica;
   font-size: 20px;
@@ -54,7 +54,7 @@
   top: 101px;
 }
 
-.vibb-online .span {
+.ROBERT .span {
   color: #000000;
   font-family: "Inria Sans-Regular", Helvetica;
   font-size: 20px;
@@ -62,14 +62,14 @@
   letter-spacing: 0;
 }
 
-.vibb-online .text-wrapper-2 {
+.ROBERT .text-wrapper-2 {
   font-family: "Inria Sans-LightItalic", Helvetica;
   font-size: 24px;
   font-style: italic;
   font-weight: 300;
 }
 
-.vibb-online .shared-image {
+.ROBERT .shared-image {
   height: 489px;
   left: 48px;
   position: absolute;
@@ -77,7 +77,7 @@
   width: 490px;
 }
 
-.vibb-online .img {
+.ROBERT .img {
   height: 489px;
   left: 653px;
   position: absolute;
