@@ -88,7 +88,10 @@ export const Desktop = () => {
 
         <div className="div-wrapper">
           <div className="text-wrapper-3">
-          <a href="./docs/assets/CVMaximilianFabrianiPieksma.pdf">View full résumé:</a>
+            <a href="/portfolio/assets/CVMaximilianFabrianiPieksma.pdf" target="_blank" rel="noopener noreferrer">
+              View full résumé
+            </a>
+
           </div>
         </div>
 

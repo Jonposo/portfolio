@@ -176,13 +176,14 @@
   font-family: "Inter", Helvetica;
   font-size: 48px;
   font-weight: 800;
-  left: 124px;
+  left: 135px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   top: 26px;
   white-space: nowrap;
   width: 419px;
+  text-align: center;
 }
 
 .desktop .overlap-2 {
