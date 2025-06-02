@@ -34,28 +34,28 @@ export const Desktop = () => {
           <div className="flexcontainer">
             <p className="text">
               <span className="span">
-                <a href="https://discord.com/" className="span" target="_blank"><img src="/assets/discord.png" width="25" height="25" className="icon"></img> maxi2007</a>
+                <a href="https://discord.com/" className="span" target="_blank"><img src="https://imgur.com/gallery/portfolio-eller-s-gUg1VCm#KKMQ0Wv" width="25" height="25" className="icon"></img> maxi2007</a>
                 <br />
               </span>
             </p>
 
             <p className="text">
               <span className="span">
-                <a href="https://www.instagram.com/maximiliankomposto/" className="span" target="_blank"><img src="/assets/instagram.png" width="25" height="25" className="icon"></img>maximiliankomposto</a>
+                <a href="https://www.instagram.com/maximiliankomposto/" className="span" target="_blank"><img src="./src/screens/Dekstop/assets/instagram.png" width="25" height="25" className="icon"></img>maximiliankomposto</a>
                 <br />
               </span>
             </p>
 
             <p className="text">
               <span className="span">
-                <a href="https://github.com/Jonposo" className="span" target="_blank"><img src="/assets/github.png" width="25" height="25" className="icon"></img>Jonposo</a>
+                <a href="https://github.com/Jonposo" className="span" target="_blank"><img src="./src/screens/Dekstop/assets/github.png" width="25" height="25" className="icon"></img>Jonposo</a>
                 <br />
               </span>
             </p>
 
             <p className="text">
               <span className="span">
-                <a href="https://www.linkedin.com/in/maximilian-fabriani-pieksma-40498932a/" className="span" target="_blank"><img src="/assets/linkedin.png" width="25" height="25" className="icon"></img>Maximilian Fabriani Pieksma</a>
+                <a href="https://www.linkedin.com/in/maximilian-fabriani-pieksma-40498932a/" className="span" target="_blank"><img src="./src/screens/Dekstop/assets/linkedin.png" width="25" height="25" className="icon"></img>Maximilian Fabriani Pieksma</a>
                 </span>
             </p>
           </div>
@@ -88,7 +88,7 @@ export const Desktop = () => {
 
         <div className="div-wrapper">
           <div className="text-wrapper-3">
-          <a href="/assets/CV Maximilian Fabriani Pieksma.pdf">View full résumé:</a>
+          <a href="./src/screens/Dekstop/assets/CV Maximilian Fabriani Pieksma.pdf">View full résumé:</a>
           </div>
         </div>
 
@@ -118,7 +118,7 @@ export const Desktop = () => {
             <img
               className="screenshot-from"
               alt="Screenshot from"
-              src="/assets/robert.png"
+              src="./src/screens/Dekstop/assets/robert.png"
             />
 
             <p className="r-o-b-e-r-t-robot">
