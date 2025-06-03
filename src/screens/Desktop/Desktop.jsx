@@ -182,7 +182,7 @@ export const Desktop = () => {
             <img
               className="screenshot-from"
               alt="Screenshot from"
-              src="https://c.animaapp.com/mHgkXrS7/img/screenshot-from-2025-05-20-12-42-48-1@2x.png"
+              src="https://github.com/Jonposo/portfolio/blob/master/docs/assets/VIBB.png?raw=true"
             />
             <p className="vibb-online-vibb-is">
               <span className="text-wrapper-4">Vibb.online</span>
@@ -223,7 +223,7 @@ export const Desktop = () => {
             <img
               className="img"
               alt="Screenshot from"
-              src="https://c.animaapp.com/mHgkXrS7/img/screenshot-from-2025-05-20-13-15-24@2x.png"
+              src="https://github.com/Jonposo/portfolio/blob/master/docs/assets/LIGHTFRAME.png?raw=true"
             />
             <p className="lightframe">
               <span className="text-wrapper-4">LightFrame</span>
