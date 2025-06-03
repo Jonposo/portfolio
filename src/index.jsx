@@ -7,3 +7,4 @@ createRoot(document.getElementById("app")).render(
     <Desktop />
   </StrictMode>,
 );
+root.render(<Desktop />);
