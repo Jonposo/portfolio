@@ -43,16 +43,16 @@ export const Desktop = () => {
           <div className="text-wrapper">Maximilian Bote Fabriani Pieksma</div>
 
           <p className="paketeringsansvarig">
-            Paketeringsansvarig på <br />
-            Expressen hos MAX Boden
+            Executive Chief of Serving <br />
+            Max Hamburgers Boden
           </p>
 
-          <p className="p">“Utan mig går ni hungriga”</p>
+          <p className="p">“Packing the worst burgers you've seen”</p>
 
           <p className="about-experiance">
             ---- About
             <br />
-            ---- Experiance
+            ---- Experience
             <br />
             ---- Projects
             <br />
@@ -159,15 +159,15 @@ export const Desktop = () => {
             my life. When i was little i spent a lot of time programming games
             in scratch och simple programs in python. <br />
             <br />
-            Nu när jag är äldre har jag ägnat mestadels av min tid åt att
-            utveckla mina kunskaper kring webb skapande. Under det här
-            skolåret har jag utvecklat en enkel dejtingsida, ett kontrollgränssnitt
-            för robotar med Raspberry Pi och slutligen denna egen webbplats.
+            Now that I am older, I have spent most of my time developing my skills 
+            in web development. During this school year, I have created a simple 
+            dating site, a control interface for robots using Raspberry Pi, 
+            and finally this personal website.
             <br />
             <br />
-            På fritiden umgås jag mycket med vänner, spelar videospel,
-            brädspel eller rollspel. Jag är också aktiv i Hemvärnsungdomen.
-            Dessutom tränar jag på gymmet flera gånger i veckan.
+            In my free time, I spend a lot of time with friends, playing video games, 
+            board games, or role-playing games. I am also active in the Home Guard 
+            Youth. In addition, I work out at the gym several times a week.
           </p>
         </div>
 
@@ -183,13 +183,13 @@ export const Desktop = () => {
           </div>
         </div>
 
-        <div
-          className="overlap-2"
-          onClick={() => window.open("https://vibb.online/userauth/login.php", "_blank")}
-          style={{ cursor: "pointer" }}
-        >
+        <div className="overlap-2">
           {/* Vibb.online */}
-          <div className="project-card1">
+          <div 
+            className="project-card1"
+            onClick={() => window.open("https://vibb.online/userauth/login.php", "_blank")}
+            style={{ cursor: "pointer" }}
+            >
             <img
               className="screenshot-from"
               alt="Screenshot from"

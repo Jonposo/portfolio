@@ -9,7 +9,7 @@ export const Robert = () => {
         <img
           className="screenshot-from"
           alt="Screenshot from"
-          src={"./docs/assets/robert.png"}
+          src={"https://github.com/Jonposo/portfolio/blob/master/docs/assets/robert.png?raw=true"}
         />
 
         <div className="overlap-group">
@@ -51,9 +51,9 @@ export const Robert = () => {
           </p>
         </div>
 
-        <img className="shared-image" alt="Shared image" src={"./docs/assets/robert1.png"} />
+        <img className="shared-image" alt="Shared image" src={"https://github.com/Jonposo/portfolio/blob/master/docs/assets/robert1.png?raw=true"} />
 
-        <img className="img" alt="Shared image" src={"./docs/assets/robert2.png"} />
+        <img className="img" alt="Shared image" src={"https://github.com/Jonposo/portfolio/blob/master/docs/assets/robert2.png?raw=true"} />
       </div>
     </div>
   );
