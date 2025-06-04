@@ -1,0 +1,257 @@
+.container {
+  background-color: #fff;
+  width: 100%;
+  max-width: 1440px;
+  height: 1024px;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media (width <= 991px) {
+  .container {
+    height: auto;
+    padding: 20px;
+  }
+}
+
+@media (width <= 640px) {
+  .container {
+    padding: 16px;
+  }
+}
+
+.hero-image {
+  flex-shrink: 0;
+  width: 435px;
+  height: 435px;
+  position: absolute;
+  top: 42px;
+  left: 48px;
+}
+
+@media (width <= 991px) {
+  .hero-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+.placeholder-div {
+  background-color: #d9d9d9;
+  flex-shrink: 0;
+  width: 853px;
+  height: 421px;
+  position: absolute;
+  top: 42px;
+  left: 538px;
+}
+
+@media (width <= 991px) {
+  .placeholder-div {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+.header-container {
+  color: #000;
+  width: 737px;
+  height: 58px;
+  font-family: Inria Sans, sans-serif;
+  font-weight: 700;
+  position: absolute;
+  top: 66px;
+  left: 561px;
+}
+
+@media (width <= 991px) {
+  .header-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+.main-title {
+  color: #000;
+  font-family: Inria Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+@media (width <= 991px) {
+  .main-title {
+    font-size: 36px;
+  }
+}
+
+@media (width <= 640px) {
+  .main-title {
+    font-size: 28px;
+  }
+}
+
+.subtitle {
+  color: #000;
+  font-family: Inria Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media (width <= 991px) {
+  .subtitle {
+    font-size: 20px;
+  }
+}
+
+@media (width <= 640px) {
+  .subtitle {
+    font-size: 16px;
+  }
+}
+
+.description-container {
+  color: #000;
+  width: 826px;
+  height: 310px;
+  font-family: Inria Sans, sans-serif;
+  position: absolute;
+  top: 143px;
+  left: 561px;
+}
+
+@media (width <= 991px) {
+  .description-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+.body-text {
+  color: #000;
+  font-family: Inria Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media (width <= 991px) {
+  .body-text {
+    font-size: 18px;
+  }
+}
+
+@media (width <= 640px) {
+  .body-text {
+    font-size: 16px;
+  }
+}
+
+.highlighted-text {
+  border-color: #b6b6b6;
+}
+
+.bold-text {
+  color: #000;
+  font-family: Inria Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media (width <= 991px) {
+  .bold-text {
+    font-size: 18px;
+  }
+}
+
+@media (width <= 640px) {
+  .bold-text {
+    font-size: 16px;
+  }
+}
+
+.bottom-left-image {
+  aspect-ratio: 490/489;
+  flex-shrink: 0;
+  width: 490px;
+  height: 489px;
+  position: absolute;
+  top: 498px;
+  left: 48px;
+}
+
+@media (width <= 991px) {
+  .bottom-left-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+.bottom-right-image {
+  aspect-ratio: 638/489;
+  flex-shrink: 0;
+  width: 638px;
+  height: 489px;
+  position: absolute;
+  top: 498px;
+  left: 653px;
+}
+
+@media (width <= 991px) {
+  .bottom-right-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+.read-more-link {
+  color: #000;
+  width: 500px;
+  height: 17px;
+  font-family: Inria Sans, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  position: absolute;
+  top: 439px;
+  left: 561px;
+}
+
+@media (width <= 991px) {
+  .read-more-link {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media (width <= 640px) {
+  .read-more-link {
+    font-size: 12px;
+  }
+}
