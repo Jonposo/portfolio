@@ -43,7 +43,7 @@ export const Desktop = () => {
     return (
       <div style={{ 
         padding: "4rem",
-        backgroundImage: "linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%), linear-gradient(to bottom, rgb(254, 119, 67) 0%, rgb(254, 119, 67) 100%)",
+        backgroundImage: "linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%), linear-gradient(to bottom, rgb(39, 63, 79) 0%, rgb(39, 63, 79) 100%)",
         backgroundClip: "content-box, padding-box"
       }}>
         <button

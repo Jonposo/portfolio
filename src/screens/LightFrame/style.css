@@ -27,6 +27,7 @@
   position: absolute;
   top: 42px;
   left: 48px;
+  border: #d9d9d9 20px solid;
 }
 
 @media (width <= 991px) {
@@ -89,6 +90,7 @@
   font-family: Inria Sans, -apple-system, Roboto, Helvetica, sans-serif;
   font-size: 48px;
   font-weight: 700;
+  display: inline;
 }
 
 @media (width <= 991px) {
@@ -108,6 +110,7 @@
   font-family: Inria Sans, -apple-system, Roboto, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: 700;
+  display: inline;
 }
 
 @media (width <= 991px) {
@@ -148,6 +151,7 @@
   font-family: Inria Sans, -apple-system, Roboto, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 400;
+  margin-top: 5px;
 }
 
 @media (width <= 991px) {
@@ -171,6 +175,7 @@
   font-family: Inria Sans, -apple-system, Roboto, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 700;
+  margin-top: 25px;
 }
 
 @media (width <= 991px) {
@@ -193,6 +198,7 @@
   position: absolute;
   top: 498px;
   left: 48px;
+  border: #d9d9d9 20px solid;
 }
 
 @media (width <= 991px) {
@@ -214,6 +220,7 @@
   position: absolute;
   top: 498px;
   left: 653px;
+  border: #d9d9d9 20px solid;
 }
 
 @media (width <= 991px) {
