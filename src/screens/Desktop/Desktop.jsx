@@ -13,16 +13,22 @@ export const Desktop = () => {
   // 2) Om showRobert är true → rendera Robert + tillbaka‐knapp
   if (showRobert) {
     return (
-      <div style={{ padding: "1rem" }}>
+      <div style={{ 
+        padding: "4rem",
+        backgroundImage: "linear-gradient(to bottom, rgba(240, 255, 40, 1) 0%, rgba(240, 255, 40, 1) 100%), linear-gradient(to bottom, rgb(254, 119, 67) 0%, rgb(254, 119, 67) 100%)",
+        backgroundClip: "content-box, padding-box"
+      }}>
         <button
           onClick={() => setShowRobert(false)}
           style={{
-            marginBottom: "1rem",
+            position: "absolute",
             padding: "0.5rem 1rem",
-            cursor: "pointer"
+            cursor: "pointer",
+            left: "5rem",
+            top: "5rem",
           }}
         >
-          ← Tillbaka till Desktop
+          Tillbaka
         </button>
         <Robert />
       </div>
@@ -177,7 +183,11 @@ export const Desktop = () => {
           </div>
         </div>
 
-        <div className="overlap-2">
+        <div
+          className="overlap-2"
+          onClick={() => window.open("https://vibb.online/userauth/login.php", "_blank")}
+          style={{ cursor: "pointer" }}
+        >
           {/* Vibb.online */}
           <div className="project-card1">
             <img
@@ -199,7 +209,10 @@ export const Desktop = () => {
           {/* ROBERT – klickar vi ⇒ setShowRobert(true) */}
           <div
             className="project-card2"
-            onClick={() => setShowRobert(true)}
+            onClick={e => {
+              e.stopPropagation();
+              setShowRobert(true);
+            }}
             style={{ cursor: "pointer" }}
           >
             <img
