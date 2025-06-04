@@ -1,8 +1,5 @@
 // src/screens/ROBERT/index.jsx
 import React from "react";
-import screenshotFrom20250527102747 from "./screenshot-from-2025-05-27-10-27-47.png";
-import sharedImage1 from "./shared-image-1.png";
-import sharedImage21 from "./shared-image-2-1.png";
 import "./style.css";
 
 export const Robert = () => {
@@ -12,7 +9,7 @@ export const Robert = () => {
         <img
           className="screenshot-from"
           alt="Screenshot from"
-          src={screenshotFrom20250527102747}
+          src={"./docs/assets/robert.png"}
         />
 
         <div className="overlap-group">
@@ -55,9 +52,9 @@ export const Robert = () => {
           </p>
         </div>
 
-        <img className="shared-image" alt="Shared image" src={sharedImage1} />
+        <img className="shared-image" alt="Shared image" src={"/doc/assets/robert1.png"} />
 
-        <img className="img" alt="Shared image" src={sharedImage21} />
+        <img className="img" alt="Shared image" src={"/doc/assets/robert2.png"} />
       </div>
     </div>
   );
