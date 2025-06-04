@@ -52,9 +52,9 @@ export const Robert = () => {
           </p>
         </div>
 
-        <img className="shared-image" alt="Shared image" src={"/doc/assets/robert1.png"} />
+        <img className="shared-image" alt="Shared image" src={"./docs/assets/robert1.png"} />
 
-        <img className="img" alt="Shared image" src={"/doc/assets/robert2.png"} />
+        <img className="img" alt="Shared image" src={"./docs/assets/robert2.png"} />
       </div>
     </div>
   );
