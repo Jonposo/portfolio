@@ -73,7 +73,7 @@ export const Desktop = () => {
                     height="25"
                     className="icon"
                   />
-                  {"  "}maxi2007
+                  maxi2007
                 </a>
                 <br />
               </span>
@@ -93,7 +93,7 @@ export const Desktop = () => {
                     height="25"
                     className="icon"
                   />
-                  {"  "}maximiliankomposto
+                  maximiliankomposto
                 </a>
                 <br />
               </span>
@@ -113,7 +113,7 @@ export const Desktop = () => {
                     height="25"
                     className="icon"
                   />
-                  {"  "}Jonposo
+                  Jonposo
                 </a>
                 <br />
               </span>
@@ -133,7 +133,7 @@ export const Desktop = () => {
                     height="25"
                     className="icon"
                   />
-                  {"  "}Maximilian Fabriani Pieksma
+                  Maximilian Fabriani Pieksma
                 </a>
               </span>
             </p>
