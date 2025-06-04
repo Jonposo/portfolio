@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
 .ROBERT {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  font-family: 'Inria Sans', sans-serif; /* Set default font for the whole section */
 }
 
 .ROBERT .div {
@@ -19,6 +22,7 @@
   position: absolute;
   top: 42px;
   width: 435px;
+  border: #d9d9d9 20px solid;
 }
 
 .ROBERT .overlap-group {
@@ -32,7 +36,6 @@
 
 .ROBERT .text-wrapper {
   color: #000000;
-  font-family: "Inria Sans-Bold", Helvetica;
   font-size: 48px;
   font-weight: 700;
   left: 23px;
@@ -44,7 +47,6 @@
 
 .ROBERT .ROBERT-is-best {
   color: #000000;
-  font-family: "Inria Sans-Regular", Helvetica;
   font-size: 20px;
   font-weight: 400;
   left: 23px;
@@ -56,17 +58,16 @@
 
 .ROBERT .span {
   color: #000000;
-  font-family: "Inria Sans-Regular", Helvetica;
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0;
 }
 
 .ROBERT .text-wrapper-2 {
-  font-family: "Inria Sans-LightItalic", Helvetica;
   font-size: 24px;
   font-style: italic;
   font-weight: 300;
+  margin-top: 20px;
 }
 
 .ROBERT .shared-image {
@@ -75,6 +76,7 @@
   position: absolute;
   top: 498px;
   width: 490px;
+  border: #d9d9d9 20px solid;
 }
 
 .ROBERT .img {
@@ -83,4 +85,6 @@
   position: absolute;
   top: 498px;
   width: 638px;
+  border: #d9d9d9 20px solid;
 }
+

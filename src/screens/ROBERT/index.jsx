@@ -36,16 +36,15 @@ export const Robert = () => {
 
             <span className="span">
               <br />I worked on the ROBERT project for the months leading up to
-              Christmas 2024. My main <br />
-              responsibilities was refining the HP system, designing robot
+              Christmas 2024. My main responsibilities was refining the HP system, designing robot
               chassis and developing the image
-              <br />
               recognition critical to making the system work. It was a very
-              engaging project which taught <br />
-              me a great deal in regards to web servers and remote control of
-              Raspberry Pis among other <br />
+              engaging project which taught
+              me<br /> 
+              a great deal in regards to web servers and remote control of
+              Raspberry Pis among other
               things. In the end the wifi we used to run the project turned out
-              to be far too weak for all <br />
+              to be far too weak for all
               robots, which meant that our reveal did not go as planned,
               however, i am still proud of our work.
             </span>
