@@ -4,11 +4,15 @@ import React, { useState } from "react";
 // Korrekt relativ väg: Desktop.jsx ligger i src/screens/Desktop/,
 // och Robert‐komponenten finns i src/screens/ROBERT/index.jsx
 import { Robert } from "../ROBERT/index.jsx";
+import { LightFrame } from "../LightFrame/index.jsx";
 import "./style.css";
 
 export const Desktop = () => {
   // 1) local state: styr om Robert ska visas
   const [showRobert, setShowRobert] = useState(false);
+
+  // För LightFrame‐skärmen:
+  const [showLightFrame, setShowLightFrame] = useState(false);
 
   // 2) Om showRobert är true → rendera Robert + tillbaka‐knapp
   if (showRobert) {
@@ -35,8 +39,32 @@ export const Desktop = () => {
     );
   }
 
+  else if (showLightFrame) {
+    return (
+      <div style={{ 
+        padding: "4rem",
+        backgroundImage: "linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%), linear-gradient(to bottom, rgb(254, 119, 67) 0%, rgb(254, 119, 67) 100%)",
+        backgroundClip: "content-box, padding-box"
+      }}>
+        <button
+          onClick={() => setShowLightFrame(false)}
+          style={{
+            position: "absolute",
+            padding: "0.5rem 1rem",
+            cursor: "pointer",
+            left: "5rem",
+            top: "5rem",
+          }}
+        >
+          Tillbaka
+        </button>
+        <LightFrame />
+      </div>
+    );
+  }
+
   // 3) Om showRobert är false → visa ordinarie Desktop‐layout
-  return (
+  else return (
     <div className="desktop" data-model-id="1:2">
       <div className="div">
         <div className="overlap-group">
@@ -233,7 +261,14 @@ export const Desktop = () => {
           </div>
 
           {/* LightFrame */}
-          <div className="project-card3">
+          <div
+            className="project-card3"
+            onClick={e => {
+              e.stopPropagation();
+              setShowLightFrame(true);
+            }}
+            style={{ cursor: "pointer" }}
+          > 
             <img
               className="img"
               alt="Screenshot from"

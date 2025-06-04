@@ -1,7 +1,7 @@
 import "./style.css";
 import * as React from "react";
 
-function LightFrame() {
+export const LightFrame = () => {
   return (
     <>
       <link
@@ -58,11 +58,9 @@ function LightFrame() {
           className="bottom-right-image"
         />
         <footer className="read-more-link">
-          Read more: https://lightframe.tekpro.se/
+          Read more: <a href="https://lightframe.tekpro.se" target="_blank">https://lightframe.tekpro.se/</a>
         </footer>
       </main>
     </>
   );
-}
-
-export default LightFrame;
+};
