@@ -387,3 +387,26 @@
   z-index: 1;
 }
 
+.tillbaka-button {
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  z-index: 999;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .tillbaka-button {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+  }
+}

@@ -22,16 +22,7 @@ export const Desktop = () => {
         backgroundImage: "linear-gradient(to bottom, rgba(240, 255, 40, 1) 0%, rgba(240, 255, 40, 1) 100%), linear-gradient(to bottom, rgb(254, 119, 67) 0%, rgb(254, 119, 67) 100%)",
         backgroundClip: "content-box, padding-box"
       }}>
-        <button
-          onClick={() => setShowRobert(false)}
-          style={{
-            position: "absolute",
-            padding: "0.5rem 1rem",
-            cursor: "pointer",
-            left: "5rem",
-            top: "5rem",
-          }}
-        >
+        <button onClick={() => setShowRobert(false)} className="tillbaka-button">
           Tillbaka
         </button>
         <Robert />
@@ -46,16 +37,7 @@ export const Desktop = () => {
         backgroundImage: "linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%), linear-gradient(to bottom, rgb(39, 63, 79) 0%, rgb(39, 63, 79) 100%)",
         backgroundClip: "content-box, padding-box"
       }}>
-        <button
-          onClick={() => setShowLightFrame(false)}
-          style={{
-            position: "absolute",
-            padding: "0.5rem 1rem",
-            cursor: "pointer",
-            left: "5rem",
-            top: "5rem",
-          }}
-        >
+        <button onClick={() => setShowLightFrame(false)} className="tillbaka-button">
           Tillbaka
         </button>
         <LightFrame />

@@ -6,7 +6,7 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  font-family: 'Inria Sans', sans-serif; /* Set default font for the whole section */
+  font-family: 'Inria Sans', sans-serif;
 }
 
 .ROBERT .div {
@@ -88,3 +88,88 @@
   border: #d9d9d9 20px solid;
 }
 
+/* ---------------------------- */
+/* Responsive styles below     */
+/* ---------------------------- */
+
+@media (max-width: 991px) {
+  .ROBERT {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .ROBERT .div {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .ROBERT .screenshot-from,
+  .ROBERT .shared-image,
+  .ROBERT .img {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    left: 0;
+    top: 0;
+  }
+
+  .ROBERT .overlap-group {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    left: 0;
+    top: 0;
+    margin-bottom: 20px;
+  }
+
+  .ROBERT .text-wrapper {
+    position: relative;
+    font-size: 36px;
+    top: 0;
+    left: 0;
+    margin-bottom: 12px;
+  }
+
+  .ROBERT .ROBERT-is-best {
+    position: relative;
+    font-size: 18px;
+    top: 0;
+    left: 0;
+  }
+
+  .ROBERT .span {
+    font-size: 18px;
+  }
+
+  .ROBERT .text-wrapper-2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .ROBERT {
+    padding: 16px;
+  }
+
+  .ROBERT .text-wrapper {
+    font-size: 28px;
+  }
+
+  .ROBERT .ROBERT-is-best {
+    font-size: 16px;
+  }
+
+  .ROBERT .span {
+    font-size: 16px;
+  }
+
+  .ROBERT .text-wrapper-2 {
+    font-size: 18px;
+  }
+}
