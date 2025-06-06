@@ -310,11 +310,20 @@
   white-space: nowrap;
 }
 
+.desktop .image {
+  top: 950px;
+  width: 380px;
+  height: 500px;
+  left: 160px;
+  position:absolute;
+  border: #d9d9d9 20px solid;
+}
+
 .desktop .overlap-7 {
   background-color: #d9d9d9;
   height: 128px;
   left: 0;
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   width: 100vw;
 }

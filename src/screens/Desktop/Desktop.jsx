@@ -270,10 +270,8 @@ export const Desktop = () => {
           </div>
         </div>
 
-        <div className="overlap-6">
-          <img className="image" alt="Max" src=""></img>
-          <div className="text-wrapper-6">3D OBJECT</div>
-        </div>
+        <img className="image" alt="Max" src="https://github.com/Jonposo/portfolio/blob/master/docs/assets/max.jpg?raw=true"></img>
+       
 
         <div className="overlap-7">
           <div className="text-wrapper-7">Contact:</div>
